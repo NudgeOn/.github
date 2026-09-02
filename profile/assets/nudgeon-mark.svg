@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Nudgeon pigeon mark</title>
+  <desc id="desc">A forward-flying pigeon with a raised wing and small signal pulse.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="42" x2="446" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2A43" />
+      <stop offset="1" stop-color="#061522" />
+    </linearGradient>
+    <linearGradient id="wing" x1="88" y1="82" x2="296" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55D8E6" />
+      <stop offset="1" stop-color="#168AAD" />
+    </linearGradient>
+    <linearGradient id="tail" x1="62" y1="240" x2="212" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E7BFF" />
+      <stop offset="1" stop-color="#27BED1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <circle cx="427" cy="88" r="132" fill="#168AAD" opacity="0.08" />
+  <path d="M94 122C150 139 207 172 249 218C227 170 204 128 167 81C235 105 291 151 318 211C294 238 262 259 227 272C196 235 153 210 100 198C119 228 144 252 178 270C134 264 91 273 54 294C103 324 158 339 215 337C267 335 319 314 350 278C373 252 384 224 386 197C363 198 341 188 328 169C318 154 301 145 282 146C256 147 238 162 226 184C198 157 153 132 94 122Z" fill="#F5FBFD" />
+  <path d="M94 122C150 139 207 172 249 218C227 170 204 128 167 81C235 105 291 151 318 211C292 234 263 252 227 272C196 235 153 210 100 198C119 228 144 252 178 270C140 264 111 266 82 278C119 286 158 301 198 318C172 284 151 247 143 210C130 178 115 149 94 122Z" fill="url(#wing)" />
+  <path d="M178 270C133 263 91 273 54 294C93 318 134 333 177 336L112 367C164 374 213 365 252 340C231 333 212 326 198 318C174 300 168 282 178 270Z" fill="url(#tail)" />
+  <path d="M384 191L432 203L386 221C388 210 388 200 384 191Z" fill="#B9F36B" />
+  <circle cx="351" cy="178" r="7" fill="#071827" />
+  <path d="M421 165C438 169 450 179 458 193" fill="none" stroke="#55D8E6" stroke-width="8" stroke-linecap="round" />
+  <path d="M430 137C460 144 481 164 493 191" fill="none" stroke="#55D8E6" stroke-width="8" stroke-linecap="round" opacity="0.65" />
+</svg>
