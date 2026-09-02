@@ -1,4 +1,4 @@
-# Nudgeon organization assets
+# NudgeOn organization assets
 
 - `nudgeon-mark.svg` — single-color N mark for the GitHub organization avatar.
 - `nudgeon-lockup.svg` — organization profile hero lockup.
@@ -12,4 +12,4 @@ Brand colors:
 - Mark and wordmark: `#0B2438`
 - Background: `#FFFFFF`
 
-The Nudgeon name, wordmark, and logo are brand assets and are not licensed under Apache-2.0 with the software source.
+The NudgeOn name, wordmark, and logo are brand assets and are not licensed under Apache-2.0 with the software source.
