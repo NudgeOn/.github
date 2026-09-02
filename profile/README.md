@@ -18,15 +18,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-Push_MVP_Alpha-F59E0B?style=flat-square" alt="Push MVP Alpha" />
-  <img src="https://img.shields.io/badge/preview-Safe_Boot-168AAD?style=flat-square" alt="Safe Boot Preview" />
-  <img src="https://img.shields.io/badge/license-Apache_2.0-3157D5?style=flat-square" alt="Apache 2.0" />
+  <sub>Push-first MVP alpha · Safe Boot preview · Apache 2.0</sub>
 </p>
 
 ## From signal to delivery
 
 <p align="center">
-  <img src="./assets/nudgeon-flow.png" alt="Events flow through audiences, journeys, and push delivery" width="760" />
+  <strong>Events</strong> → <strong>Audiences</strong> → <strong>Journeys</strong> → <strong>Delivery</strong>
 </p>
 
 Nudgeon brings the product path into one inspectable system: NestJS APIs, a Next.js console, Go workers, PostgreSQL, ClickHouse, and Redis Streams.
