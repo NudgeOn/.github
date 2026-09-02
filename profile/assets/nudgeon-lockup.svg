@@ -1,11 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
   <title id="title">Nudgeon</title>
-  <desc id="desc">Nudgeon wordmark with a minimal single-color messenger pigeon.</desc>
+  <desc id="desc">Nudgeon wordmark with a minimal single-color N.</desc>
   <rect width="1280" height="320" fill="#FFFFFF" />
-  <g transform="translate(28 -12) scale(.64)" fill="#0B2438" stroke="#0B2438" stroke-linecap="round">
-    <path d="M63 325C101 300 141 286 183 284C204 245 241 221 286 216C305 180 332 153 366 146C400 140 429 159 441 189L479 203L445 226C435 246 418 260 395 266C425 303 432 351 410 392C384 438 335 459 274 458C214 457 166 432 144 389C112 374 84 351 63 325Z" stroke="none" />
-    <path d="M232 444V472M317 444V472" fill="none" stroke-width="13" />
-    <path d="M216 476H248M301 476H333" fill="none" stroke-width="13" />
+  <g transform="translate(36 0) scale(.6)">
+    <path d="M104 416V128H176L344 328V96H416V384H344L176 192V416Z" fill="#0B2438" />
   </g>
-  <text x="365" y="213" fill="#0B2438" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="128" font-weight="740" letter-spacing="-5">Nudgeon</text>
+  <text x="335" y="213" fill="#0B2438" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="128" font-weight="720" letter-spacing="-5">Nudgeon</text>
 </svg>

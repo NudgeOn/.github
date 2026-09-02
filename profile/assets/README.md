@@ -1,15 +1,15 @@
 # Nudgeon organization assets
 
-- `nudgeon-mark.svg` — single-color pigeon mark for the GitHub organization avatar.
+- `nudgeon-mark.svg` — single-color N mark for the GitHub organization avatar.
 - `nudgeon-lockup.svg` — organization profile hero lockup.
 - `nudgeon-avatar.png` — 1024 px raster export for GitHub organization settings.
 - `nudgeon-lockup.png` — 1600 px raster preview of the hero lockup.
 
-The pigeon represents message delivery. The mark uses one continuous silhouette, a short beak, and two minimal feet. It has no gradients, outlines, or decorative details.
+The mark is one continuous N shape. Its right stem sits slightly higher and farther forward to express a small nudge without adding another symbol.
 
 Brand colors:
 
-- Pigeon and wordmark: `#0B2438`
+- Mark and wordmark: `#0B2438`
 - Background: `#FFFFFF`
 
 The Nudgeon name, wordmark, and logo are brand assets and are not licensed under Apache-2.0 with the software source.

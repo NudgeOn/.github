@@ -1,10 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Nudgeon pigeon mark</title>
-  <desc id="desc">A minimal single-color messenger pigeon silhouette.</desc>
+  <title id="title">Nudgeon N mark</title>
+  <desc id="desc">A minimal single-color N with its right stem nudged forward.</desc>
   <rect width="512" height="512" fill="#FFFFFF" />
-  <g fill="#0B2438" stroke="#0B2438" stroke-linecap="round">
-    <path d="M63 325C101 300 141 286 183 284C204 245 241 221 286 216C305 180 332 153 366 146C400 140 429 159 441 189L479 203L445 226C435 246 418 260 395 266C425 303 432 351 410 392C384 438 335 459 274 458C214 457 166 432 144 389C112 374 84 351 63 325Z" stroke="none" />
-    <path d="M232 444V472M317 444V472" fill="none" stroke-width="13" />
-    <path d="M216 476H248M301 476H333" fill="none" stroke-width="13" />
-  </g>
+  <path d="M104 416V128H176L344 328V96H416V384H344L176 192V416Z" fill="#0B2438" />
 </svg>
