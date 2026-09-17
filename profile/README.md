@@ -11,7 +11,7 @@ NudgeOn makes open-source tools for customer messaging and virtual waiting rooms
 
 Collect app events, define audiences, and build customer journeys that send mobile push notifications.
 
-The platform is currently a **push-first MVP alpha**. You can try it locally with Safe Boot:
+Start locally with Safe Boot:
 
 ```bash
 git clone https://github.com/NudgeOn/nudgeon-platform.git
@@ -19,7 +19,7 @@ cd nudgeon-platform
 ./nudgeon up
 ```
 
-Safe Boot creates local secrets, starts the stack, and shows its readiness state. Real-device delivery, recovery, SDK publishing, and production operations are still being verified. APIs and schemas may change. The managed service is not open yet.
+Safe Boot creates local secrets, starts the stack, and shows its readiness state.
 
 [Documentation](https://github.com/NudgeOn/nudgeon-platform/tree/main/docs-public) · [Release checklist](https://github.com/NudgeOn/nudgeon-platform/blob/main/docs-public/RELEASE-CHECKLIST.md)
 
@@ -51,7 +51,7 @@ You only need Docker with Compose. There is no source build or Go/Node.js instal
 - [nudgeon-rn-sdk](https://github.com/NudgeOn/nudgeon-rn-sdk) — React Native bridge
 - [nudgeon-flutter-sdk](https://github.com/NudgeOn/nudgeon-flutter-sdk) — Flutter bridge
 
-The messaging SDKs are still undergoing integration and device verification.
+The native iOS and Android SDKs are published. React Native and Flutter packages are being prepared for release.
 
 ## License
 
