@@ -2,16 +2,44 @@
   <img src="./assets/nudgeon-lockup.png" alt="NudgeOn" width="760" />
 </p>
 
-NudgeOn makes open-source tools for customer messaging and virtual waiting rooms. Both run on your own servers, with a few commands to get started locally.
+NudgeOn builds open-source software for customer engagement and traffic control. Our two products — **NudgeOn Platform** and **NudgeOn Waiting Room** — each include installation tools and an admin console. Run either on your own servers, independently or together.
 
-- **[Platform](https://github.com/NudgeOn/nudgeon-platform)** sends messages based on what customers do in your app.
-- **[Waiting Room](https://github.com/NudgeOn/Waiting-Room)** queues visitors when traffic spikes and lets you control how quickly they enter.
+| Product | Use it to |
+| --- | --- |
+| [NudgeOn Platform](https://github.com/NudgeOn/nudgeon-platform) | Send messages based on customer actions and manage customer journeys. |
+| [NudgeOn Waiting Room](https://github.com/NudgeOn/Waiting-Room) | Queue visitors during traffic spikes and control admission to your service. |
 
 ## NudgeOn Platform
 
-Collect app events, define audiences, and build customer journeys that send mobile push notifications.
+A customer engagement platform for product teams.
 
-Start locally with Safe Boot:
+- Collect app events and manage customer profiles.
+- Group customers by their attributes and actions.
+- Build journeys with triggers, waits, and mobile push messages.
+- Manage audiences, journeys, and message activity from the console.
+
+SDKs connect iOS, Android, React Native, and Flutter apps to the platform.
+
+[Source](https://github.com/NudgeOn/nudgeon-platform) · [Documentation](https://github.com/NudgeOn/nudgeon-platform/tree/main/docs-public) · [한국어 안내](https://github.com/NudgeOn/nudgeon-platform/blob/main/README.ko.md)
+
+## NudgeOn Waiting Room
+
+A virtual waiting room for websites and apps. Use it for ticket sales, product launches, or any event where many visitors arrive at once.
+
+- Keep visitors in a first-in-first-out queue.
+- Set admission limits and pause or resume entry from the admin console.
+- Monitor waiting visitors, admissions, and origin health.
+- Configure rooms and customize the visitor-facing waiting page.
+
+Waiting Room installs separately and works with your existing website or API.
+
+[Source](https://github.com/NudgeOn/Waiting-Room) · [Documentation](https://github.com/NudgeOn/Waiting-Room#documentation) · [한국어 안내](https://github.com/NudgeOn/Waiting-Room/blob/main/README.ko.md)
+
+## Get started locally
+
+Both products include commands for installation and initial setup.
+
+**Platform** — clone the repository and start Safe Boot:
 
 ```bash
 git clone https://github.com/NudgeOn/nudgeon-platform.git
@@ -19,40 +47,24 @@ cd nudgeon-platform
 ./nudgeon up
 ```
 
-Safe Boot creates local secrets, starts the stack, and shows its readiness state.
+Safe Boot prepares local secrets, starts the stack, and shows its readiness state.
 
-[Documentation](https://github.com/NudgeOn/nudgeon-platform/tree/main/docs-public) · [Release checklist](https://github.com/NudgeOn/nudgeon-platform/blob/main/docs-public/RELEASE-CHECKLIST.md)
-
-## NudgeOn Waiting Room
-
-Put a waiting room in front of your website or API for a ticket sale, product launch, or signup opening. Visitors join a first-in-first-out queue. From the admin screen, you can pause admission or set how many visitors enter at a time.
-
-Waiting Room works with websites and apps. It installs separately; you do not need the messaging platform to use it.
-
-The published release is a **local Docker Preview**. Production installation, sustained high-load testing, and high availability are still in progress.
-
-Download the CLI from [Releases](https://github.com/NudgeOn/Waiting-Room/releases), then start the local setup:
+**Waiting Room** — download the CLI from [Releases](https://github.com/NudgeOn/Waiting-Room/releases), then run:
 
 ```sh
 ./wrctl install
 ./wrctl setup
 ```
 
-You only need Docker with Compose. There is no source build or Go/Node.js installation to work through. Use the setup command to register the first administrator. The Preview runs locally with a demo origin.
+Docker with Compose is the only runtime prerequisite for the downloaded CLI. It installs the prebuilt runtime and provides access to the initial admin setup. See the [installation guide](https://github.com/NudgeOn/Waiting-Room/blob/main/docs/releases/quick-start.md) for the local environment and release details.
 
-[Getting started](https://github.com/NudgeOn/Waiting-Room/blob/main/docs/releases/quick-start.md) · [Beta checklist](https://github.com/NudgeOn/Waiting-Room/blob/main/docs/beta-plan.md) · [한국어 안내](https://github.com/NudgeOn/Waiting-Room/blob/main/README.ko.md)
+## Mobile SDKs
 
-## Repositories
-
-- [nudgeon-platform](https://github.com/NudgeOn/nudgeon-platform) — messaging APIs, console, workers, and data layer
-- [Waiting-Room](https://github.com/NudgeOn/Waiting-Room) — waiting room, admission control, and operator dashboard
-- [nudgeon-ios-sdk](https://github.com/NudgeOn/nudgeon-ios-sdk) — native Swift SDK
-- [nudgeon-android-sdk](https://github.com/NudgeOn/nudgeon-android-sdk) — native Kotlin SDK
-- [nudgeon-rn-sdk](https://github.com/NudgeOn/nudgeon-rn-sdk) — React Native bridge
-- [nudgeon-flutter-sdk](https://github.com/NudgeOn/nudgeon-flutter-sdk) — Flutter bridge
-
-The native iOS and Android SDKs are published. React Native and Flutter packages are being prepared for release.
+- [iOS](https://github.com/NudgeOn/nudgeon-ios-sdk) — Swift
+- [Android](https://github.com/NudgeOn/nudgeon-android-sdk) — Kotlin
+- [React Native](https://github.com/NudgeOn/nudgeon-rn-sdk)
+- [Flutter](https://github.com/NudgeOn/nudgeon-flutter-sdk)
 
 ## License
 
-Both projects use Apache-2.0. The NudgeOn name and logo are covered by a separate [trademark policy](https://github.com/NudgeOn/nudgeon-platform/blob/main/TRADEMARKS.md).
+Both products use Apache-2.0. The NudgeOn name and logo are covered by a separate [trademark policy](https://github.com/NudgeOn/nudgeon-platform/blob/main/TRADEMARKS.md).
